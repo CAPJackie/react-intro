@@ -8,9 +8,9 @@ export class Todo extends React.Component {
 
     render() {
         return (  
-          <h2>
-              {this.props.text.toString()}  {this.props.priority.toString()}  {this.props.dueDate.toString()}
-          </h2>
+          <p>
+              <b>Text: </b> {this.props.text.toString()} , <b>Priority: </b> {this.props.priority.toString()} , <b>Due Date: </b> {this.props.dueDate.toString()}
+          </p>
         );
     }
 
